@@ -1,0 +1,54 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+.global{
+  overflow: hidden;
+  position: absolute;
+  left: -2rem;
+  top: 65%;
+  z-index: 10;
+  margin-top: 1.55rem;
+  border-radius: 1rem;
+  width: 100vw;
+  max-width: 28rem;
+  background-color: #ffffff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(187, 187, 187, 0.05);
+  transition: ease-in-out 0.3s;
+}
+.L1{
+  display: flex;
+  position: relative;
+  padding: 1rem;
+  column-gap: 1.5rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1.5rem;
+  background-color: #F9FAFB;
+}
+.L1 :hover {
+
+}
+.L2{
+  display: flex;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: #F9FAFB;
+}
+.L3{
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #4B5563;
+}
+.word{
+  display: block;
+  font-weight: 600;
+  color: #111827;
+}
+

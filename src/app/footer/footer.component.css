@@ -1,0 +1,7 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+header{
+  border-top: rgba(58, 65, 89, 0.63) solid 2px;
+}

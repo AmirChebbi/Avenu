@@ -1,0 +1,25 @@
+{
+  "users" :  [
+    {
+      "id" : 2,
+      "email" : "amirclient@gmail.com",
+      "password": "Client123456789!",
+      "role" : "client"
+    },
+    {
+      "id": 1,
+      "email" : "amiradmin@avenu.com",
+      "password" : "Admin123456789!",
+      "role" : "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name" : "Sabat",
+      "description": "3la ma7leh w jawou behi",
+      "price" : 150
+    }
+  ]
+}
+

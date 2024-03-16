@@ -1,0 +1,13 @@
+
+
+<div class="authentication-placeholder">
+  <div *ngIf="login"class="authentication-container">
+    <app-login-page ></app-login-page>
+    <img (click)="login=false" class="auth-image" style="background-color: #111827" src="assets/logos/Blue.png">
+  </div>
+  <div *ngIf="!login" class="authentication-container-2">
+    <img (click)="login=true" class="auth-image" style="background-color: #c0c7e3" src="assets/img/White%20(1).png">
+    <app-signup-page ></app-signup-page>
+  </div>
+</div>
+

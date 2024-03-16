@@ -1,0 +1,56 @@
+<div class="global-container">
+  <div class="side-bar-container">
+    <a href='/' style="background-color: transparent; border: none" >
+      <img src="assets/logos/White.png" style="height: 80px; " >
+    </a>
+    <div class="buttons-container">
+      <button (click)="board='dashboard'">
+        <img src="assets/icons/home.png" class="icon">
+        <p>Dashboard</p>
+      </button>
+
+      <button (click)="board='transaction'">
+        <img src="assets/icons/transaction.png" class="icon">
+        <p>Transactions</p>
+      </button>
+
+      <button (click)="board='accounts'">
+        <img src="assets/icons/accounts.png" class="icon">
+        <p>Accounts</p>
+      </button>
+
+      <button (click)="board='services'">
+        <img src="assets/icons/service.png" class="icon">
+        <p>Services</p>
+      </button>
+
+      <button (click)="board='settings'">
+        <img src="assets/icons/settings.png" class="icon">
+        <p>Settings</p>
+      </button>
+
+    </div>
+  </div>
+
+
+  <div class="nav-body-container">
+    <app-admin-nav-bar></app-admin-nav-bar>
+    <div class="body-container">
+      <div class="money">
+        <div class="cards">
+          <span style="margin-left: 35px; margin-top: 10px; font-size: 20px; color: rgba(8,34,73,0.73); font-weight: bold">My Cards</span>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap:20px; width: 400px; margin-left: 30px">
+              <img src="assets/img/Blue%20credit%20card.png" class="c-cards">
+              <img src="assets/img/white%20credit%20card.png" class="c-cards">
+          </div>
+        </div>
+        <div class="transactions">
+          <span style="margin-left: 10px; margin-top: 10px; font-size: 20px; color: rgba(8,34,73,0.73); font-weight: bold">My Cards</span>
+          <img src="assets/img/transactions.png" class="c-cards">
+        </div>
+      </div>
+      <img src="assets/img/stats.png" style="width: 98%">
+    </div>
+  </div>
+
+</div>

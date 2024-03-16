@@ -1,0 +1,81 @@
+.authentication-placeholder{
+  padding-top: 80px;
+  display: flex;
+  place-content: center;
+}
+.authentication-container{
+  overflow: hidden;
+  border: rgba(17, 24, 39, 0.58) 2px solid;
+  border-radius: 15px;
+  background-color: #c0c7e3;
+  position: relative;
+  display: grid;
+  height: 580px;
+  width: 1000px;
+  place-content: center;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 100%;
+}
+.authentication-container-2{
+  overflow: hidden;
+  border: rgba(17, 24, 39, 0.58) 2px solid;
+  border-radius: 15px;
+  background-color: #111827;
+  position: relative;
+  display: grid;
+  height: 580px;
+  width: 1000px;
+  place-content: center;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 100%;
+}
+
+.login-container{
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 500px;
+  height: 610px;
+  overflow: hidden;
+}
+
+.signup-container{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 500px;
+  height: 610px;
+  overflow: hidden;
+}
+.auth-image{
+  z-index: 2;
+  position: relative;
+  max-width: 500px;
+  width: 50vi;
+  height: 100%;
+}
+
+.auth-image :hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+@media (max-width: 1024px) {
+  .authentication-container{
+    width: 95vi;
+    gap: 20px;
+    grid-template-columns: 80% 20%;
+    overflow: hidden;
+  }
+
+  .authentication-container-2{
+    width: 95vi;
+    gap: 20px;
+    grid-template-columns: 20% 80%;
+    overflow: hidden;
+  }
+  .auth-image{
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+}
